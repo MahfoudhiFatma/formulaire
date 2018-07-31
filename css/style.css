@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0
+}
+body{
+    background:linear-gradient(132deg,#543747,#383e5c);
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.form-group label{
+    color: white;
+    font-size: 17px;
+}
+.form-group input{
+    background-color: rgba(39, 38, 57, 1);
+    border: 1px solid rgba(28, 25, 37,1);
+}
+.form-group textarea{
+    background-color: rgba(39, 38, 57, 1);
+    border: 1px solid rgba(28, 25, 37,1);
+}
+.form-btn{
+    display: flex;
+    flex-direction: column;
+}
+.form-btn button{
+    padding: 10px 50px;
+    background-color: rgba(39, 38, 57, 1);
+    border: 1px solid rgba(28, 25, 37,1);
+    border-radius: 3px;
+    color: white;
+    margin: 5px;
+    font-size: 13px;
+}
+    

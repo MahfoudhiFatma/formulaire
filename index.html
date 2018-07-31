@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>FORM VALIDATION</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/controle.js"></script>
+</head>
+<body>
+    <section class="content">
+        <form  onsubmit="valid()" method="POST" action="#" id="formValidation">
+            <div class="form-group">
+                <label for="contactName">Name:*</label>
+                <input type="text" id="contactName" name="contactName" class="form-control" size="40">
+            </div>
+            <div class="form-group">
+                <label for="contactAdr">Adress:*</label>
+                <input type="text" id="contactAdr" name="contactAdr" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contactEmail">E-mail Adress:*</label>
+                <input type="email" id="contactEmail" name="contactEmail" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contactPwd">Password:*</label>
+                <input type="password" id="contactPwd" name="contactPwd" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="contactComment">Comments:</label>
+                <textarea type="text" id="contactComment" name="contactComment" class="form-control"></textarea>
+            </div>
+            <div class="form-btn">
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </div>
+        
+        </form>
+    </section>
+    
+</body>
+</html>
